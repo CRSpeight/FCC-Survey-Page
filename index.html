@@ -36,6 +36,56 @@
           <option value="preferNotToStay">Prefer Not to Say</option>
           <option value="other">Other</option>
         </select>
+
+        <p>Would you recommend freeCodeCamp to a friend?</p>
+        <div class="radio-buttons">
+          <input
+            type="radio"
+            name="recommend"
+            id="definitely"
+            value="definitely"
+          />
+          <label for="definitely">Definitely</label><br />
+          <input type="radio" name="recommend" id="maybe" value="maybe" />
+          <label for="maybe">Maybe</label><br />
+          <input type="radio" name="recommend" id="notSure" value="notSure" />
+          <label for="notSure">Not sure</label>
+        </div>
+        <p>What would you like to see improved? (Check all that apply)</p>
+        <div>
+          <input type="checkbox" value="frontEnd" />
+          <label>Front-end Projects</label><br />
+          <input type="checkbox" value="backEnd" />
+          <label>Back-end Projects</label><br />
+          <input type="checkbox" value="dataViz" />
+          <label>Data Visualization</label><br />
+          <input type="checkbox" value="challenges" />
+          <label>Challenges</label><br />
+          <input type="checkbox" value="openSourceCommunity" />
+          <label>Open Source Community</label><br />
+          <input type="checkbox" value="glitterHelpRooms" />
+          <label>Gitter help rooms</label><br />
+          <input type="checkbox" value="videos" />
+          <label>Videos</label><br />
+          <input type="checkbox" value="cityMeetups" />
+          <label>City Meetups</label><br />
+          <input type="checkbox" value="wiki" />
+          <label>Wiki</label><br />
+          <input type="checkbox" value="forum" />
+          <label>Forum</label><br />
+          <input type="checkbox" value="additionalCourses" />
+          <label>Additional Courses</label><br />
+        </div>
+
+        <label for="comments">Any comments or suggestions?</label>
+        <textarea
+          name="comments"
+          id="comments"
+          cols="30"
+          rows="10"
+          placeholder="Enter your comments here"
+        ></textarea>
+        <button type="submit" id="submit">Submit</button>
       </form>
     </div>
   </body>

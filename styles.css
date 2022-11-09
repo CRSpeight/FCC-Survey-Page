@@ -11,12 +11,19 @@ h1,
   text-align: center;
 }
 
+#description {
+  padding-bottom: 15px;
+  font-size: larger;
+}
+
 #survey-form {
   display: grid;
   grid-template-columns: 1fr;
   gap: 10px;
 }
 
-label {
+label,
+p {
   font-weight: bold;
+  margin: 0;
 }
